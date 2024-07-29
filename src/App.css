@@ -1,0 +1,15 @@
+.app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+}
+
+body {
+  margin: 0;
+}
+
+.ant-layout .ant-layout-sider {
+  background: #ffffff;
+}

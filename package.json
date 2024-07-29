@@ -1,0 +1,39 @@
+{
+  "name": "map-compare",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000",
+    "build": "tsc -b && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.4.0",
+    "@goongmaps/goong-geocoder-react": "^0.1.1",
+    "@goongmaps/goong-js": "^1.0.9",
+    "@goongmaps/goong-map-react": "^1.1.2",
+    "@mapbox/polyline": "^1.2.1",
+    "@types/geojson": "^7946.0.14",
+    "antd": "^5.19.2",
+    "mapbox-gl": "^1.13.3",
+    "polyline": "^0.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-svg-sprite": "^1.0.8"
+  },
+  "devDependencies": {
+    "@types/polyline": "^0.1.32",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
+  }
+}
